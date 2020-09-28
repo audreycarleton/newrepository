@@ -1,0 +1,125 @@
+body {
+    background-color: #ffe6cc;
+    /*font-family: "Comic Sans MS"*/
+    font-family: "georgia";
+}
+
+/*the above code makes the background color of my entire page that peachy color, makes the entire page's font georgia,
+and as you can see i had initially played around with Comic Sans MS but decided not to go that route so I commented it out*/
+li {
+    padding-top: 10px;
+}
+
+/*the above code adds 10 pixels of spacing between every list item in my ordered list,
+we just applied it to the top  */
+.container {
+    max-width: 732px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*I wrote this code with Luca and I don't think it does much to be honest because when I comment it out the page doesn't really change. but it did help me set the parameters around the photo
+being max-width 732px
+
+
+/*.over-right {
+    padding-left: 200px;
+}  this class was initially used to align the text in my ordered list slightly rightward but
+i decided i didn't like how that looked so i commented it out. the class is still summoned in my ordered list html code
+but since the css code is commented out that's meaningless. but i'm leaving it in for now so i can refer back to that later */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/*this class sets the paramaters of how things should be centred on the page and it's used in the h1 body
+code and the image code. */
+figcaption {
+    padding-top: 10px;
+    text-align: center;
+}
+
+/*the above code applies a 10 pixel padding to the top of my figure's caption to give it some room away from the protest photo.
+and it aligns the text to the center so it better matches the alignment of the footer and the page header.
+since it's only applied to the one specific thing,
+it's not neccessarily worth making a class for if not to be repeated throughout the html code  */
+h1 {
+    text-align: center;
+}
+
+/*the above code applies a center alignment directly to the header rather than applying that to a class since it's just a command we wanted to happen once on one specifci thing,
+not neccessarily worth making a class for if not to be repeated throughout the html code  */
+.grey-text {
+    color: #857F88;
+}
+
+/*the above code turns the text grey and is applied to the figcaption in my html */
+.georgia-font {
+    font-family: georgia, serif;
+}
+
+/* the above code applies georgia serif font wherever I apply it; in this case it's only applied to the header as a class in my h1 code,
+but that is a little irrelevent because we applied georgia directly to the whole page body in a line of CSS above */
+.purple-border {
+    border-color: #D8C5E3;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 20%;
+}
+
+/*the above code put a solid border around my protest image, with a width of 10px, which is 20% circular in form
+it is summoned as a class in my image figure code in the html
+
+/* I did not end up using any of these - so I commented them out - they remain in my HTML code but they don't summon anything when used since that class is commented out so they are meaningless!
+this is probably not best practice for organization but i'm just going to leave them in there while i'm still learning.
+
+.sunflower-background {
+    background-color: #ffcc00;
+}*/
+/* .book-Antiqua {
+    font-family: Book Antiqua;
+}*/
+.box {
+    border-style: solid;
+    border-color: D8C5E3;
+    border-width: 8px;
+    text-align: left;
+    border-radius: 20%;
+    background-color: #F1D4C0;
+    color: #C3B9D4;
+    padding: 10px;
+}
+
+/* ^is a class that tells html to add a box with a solid border, that's 20% circular with those specific background colors/border colors
+with 10% padding on all sides between the text and the border's edges, with text aligned to the left. i summoned the box class within the div that contained my ordered list.
+
+i created the below background styles just for the sake of it and then didn't end up using them anywhere so I commented them out
+/*.teal-background {
+    background-color: #0099cc;
+}
+
+.cursive-font {
+    font-family: cursive;
+}
+
+.orange-background {
+    background-color: #ffbb99;
+}*/
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #B8AEBD;
+    color: ##EBC1A3;
+    text-align: center;
+}
+
+/* ^this is the class for the footer that I put at the bottom of the page, which has absolute positioning meaning it sticks to the bottom and doesn't move on the page
+it's set 0 away from the left and bottom, it takes up 100% of the width of the page, it's 40 px tall, and the text within it is centered.
+I summoned the footer class in its own div at the bottom of my html code
+
+/*thank you Luca!!!!!!!!!!!!*/
